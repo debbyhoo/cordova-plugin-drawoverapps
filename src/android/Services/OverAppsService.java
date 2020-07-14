@@ -74,11 +74,11 @@ import java.util.Date;
          windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
 
          inflater = (LayoutInflater)getSystemService(LAYOUT_INFLATER_SERVICE);
-         overAppsHead = inflater.inflate(R.layout.service_over_apps_head, null, false);
-         overAppsView = inflater.inflate(R.layout.service_over_apps_view, null, false);
-         webView = (WebView) overAppsView.findViewById(R.id.webView);
-         imageHead = (ImageView) overAppsHead.findViewById(R.id.imageHead);
-         imgClose = (ImageView) overAppsView.findViewById(R.id.imgClose);
+//          overAppsHead = inflater.inflate(R.layout.service_over_apps_head, null, false);
+//          overAppsView = inflater.inflate(R.layout.service_over_apps_view, null, false);
+//          webView = (WebView) overAppsView.findViewById(R.id.webView);
+//          imageHead = (ImageView) overAppsHead.findViewById(R.id.imageHead);
+//          imgClose = (ImageView) overAppsView.findViewById(R.id.imgClose);
          imgClose.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
@@ -204,11 +204,11 @@ import java.util.Date;
      private View keyDispatureView;
      public void showKeyDispatureVisibilty(boolean visible) {
 
-         if (keyDispatureView ==null)
-         {
-             keyDispatureView = inflater.inflate(R.layout.key_dispature, null, false);
-         }
-         rlKeyDispature = (KeyDispatchLayout) keyDispatureView.findViewById(R.id.tab_left);
+//          if (keyDispatureView ==null)
+//          {
+//              keyDispatureView = inflater.inflate(R.layout.key_dispature, null, false);
+//          }
+//          rlKeyDispature = (KeyDispatchLayout) keyDispatureView.findViewById(R.id.tab_left);
 
          if (visible)
          {
